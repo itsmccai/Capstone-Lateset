@@ -1,0 +1,16 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.db
+
+# macOS archive junk
+__MACOSX/
+
+# Frontend dependencies and build output are ignored by vuejs/vue-project/.gitignore

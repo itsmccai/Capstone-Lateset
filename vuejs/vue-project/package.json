@@ -1,0 +1,33 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/model-viewer": "^4.3.1",
+    "@mkkellogg/gaussian-splats-3d": "^0.4.7",
+    "@playcanvas/web-components": "^0.8.1",
+    "@primeicons/vue": "^8.0.0-alpha.1",
+    "@tailwindcss/vite": "^4.3.1",
+    "gsplat": "^1.2.9",
+    "playcanvas": "^2.21.0",
+    "primeicons": "^7.0.0",
+    "tailwindcss": "^4.3.1",
+    "three": "^0.185.1",
+    "vue": "^3.5.38",
+    "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.7",
+    "vite": "^8.0.16",
+    "vite-plugin-vue-devtools": "^8.1.2"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  }
+}
